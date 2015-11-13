@@ -46,7 +46,22 @@ $on-laptop:        800px;
 ;
 
 
-html{
+html {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
 }

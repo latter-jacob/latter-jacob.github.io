@@ -82,7 +82,6 @@
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
         }
     }
 }
@@ -94,9 +93,11 @@
   background-color: #2F3A40;
 }
 
-.contact-list,
 .social-media-list {
-    list-style: none;
-    margin-left: 0;
-    display: inline;
+}
+
+.social-media-list-item {
+  list-style: none;
+  display: inline;
+  margin-left: 0px;
 }
