@@ -1,32 +1,17 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
 
-      <div class="footer-col footer-col-1">
-        <ul class="social-media-list">
-          <li>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
-      </div>
+  <ul class="social-media-list">
+    <li class="social-media-list-item">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </li>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-        </ul>
-      </div>
+    <li class="social-media-list-item">
+      {% include icon-github.html username=site.github_username %}
+    </li>
 
-      <div class="footer-col footer-col-3">
-        <ul class="social-media-list">
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
+    <li class="social-media-list-item">
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+  </ul>
 
 </footer>
