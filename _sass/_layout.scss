@@ -6,14 +6,17 @@
   min-height: 4rem;
   position: relative;
   background-color: #2F3A40;
+  text-transform: uppercase;
+
 }
 
 .site-title {
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: -1px;
-  padding-top: 1%;
+  padding-top: 0.5%;
   float: left;
+  padding-left: 2%;
 
   &,
   &:visited {
@@ -91,13 +94,16 @@
  */
 .site-footer {
   background-color: #2F3A40;
+  text-transform: uppercase;
+
 }
 
 .social-media-list {
+  font-size: 1.3rem;
 }
 
 .social-media-list-item {
   list-style: none;
   display: inline;
-  margin-left: 0px;
+  margin-left: 11%;
 }
