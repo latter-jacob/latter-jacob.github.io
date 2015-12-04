@@ -1,3 +1,33 @@
 .portfolio-whole {
   background: url("../img/blue-background.jpg") no-repeat center center fixed;
 }
+
+.project-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.portfolio-left {
+  width: 35%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.portfolio-right {
+  width: 35%;
+  display: inline-block;
+  padding-left: 10%;
+  vertical-align: top;
+  padding-top: 5%;
+}
+.project-info {
+  list-style: none;
+  text-align: center;
+}
+.project-info a:link {
+  color: #FF5800;
+}
+.project-info a:visited {
+  color: #FF5800;
+}
