@@ -4,7 +4,6 @@
 
 .site-header {
   min-height: 4rem;
-  position: relative;
   background-color: #2F3A40;
   text-transform: uppercase;
 
@@ -26,7 +25,6 @@
 
 .site-nav {
     float: right;
-    padding-top: 2.5%;
 
     .menu-icon {
         display: none;
@@ -76,11 +74,10 @@
 
         &:hover .trigger {
             display: block;
-            padding-bottom: 5px;
+            padding-right: 1rem;
         }
 
         .page-link {
-            padding: 5px 10px;
 
             &:not(:last-child) {
                 margin-right: 0;
@@ -95,8 +92,6 @@
 .site-footer {
   background-color: #2F3A40;
   text-transform: uppercase;
-  bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
@@ -108,4 +103,9 @@
   list-style: none;
   display: inline;
   margin-left: 11%;
+}
+
+.trigger {
+  padding-top: 6%;
+  padding-right: 10px;
 }
