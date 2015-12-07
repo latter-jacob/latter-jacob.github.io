@@ -6,7 +6,6 @@
   min-height: 4rem;
   background-color: #2F3A40;
   text-transform: uppercase;
-
 }
 
 .site-title {
@@ -35,7 +34,7 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 5px;
         }
     }
 
@@ -106,6 +105,6 @@
 }
 
 .trigger {
-  padding-top: 6%;
+  padding-top: 13%;
   padding-right: 10px;
 }
